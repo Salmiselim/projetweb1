@@ -15,6 +15,11 @@
     color:#2D9CDB;
 }
 
+
+.header{
+    background-color: burlywood;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -40,7 +45,8 @@ html, body {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    background-color:crimson;
 }
 
 .main-nav li {
@@ -57,6 +63,7 @@ html, body {
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
+    background-color: crimson;
 }
 
 .band-name {
@@ -65,7 +72,8 @@ html, body {
     font-size: 4em;
     font-family: "Booter - Zero Zero";
     font-weight: normal;
-    color: white;
+    color:crimson;
+    background-color: black;
 }
 
 .band-name-large {
@@ -101,16 +109,21 @@ html, body {
     background-color: #56CCF2;
     color: white;
     padding: .25em 0;
+
+    background-color: crimson;
+
 }
 
 .main-footer-container {
     display: flex;
     align-items: center;
+    background-color: crimson;
 }
 
 .main-footer-container ul {
     flex-grow: 1;
     text-align: end;
+    background-color: black;
 }
 
 .footer-nav li {
@@ -148,7 +161,7 @@ html, body {
 .btn-play {
     display: block;
     margin: 0 auto;
-    color: #2D9CDB;
+    color: crimson;
     font-size: 4em;
     border-radius: 50%;
     width: 100px;
@@ -158,11 +171,20 @@ html, body {
 }
 
 .btn-primary {
-    color: white;
-    background-color: #56CCF2;
+    color:black;
+    background-color:crimson;
     border: none;
     border-radius: .3em;
     font-weight: bold;
+}
+.gameplay{
+    color:black;
+    background-color:crimson;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    padding:10px;
+    margin:2px
 }
 
 .btn-primary:hover {
